@@ -1,6 +1,6 @@
-body{
-    background-color: rgb(27, 27, 27);
-    max-width: 960px;
+.header{
+    max-width: 500px;
+    max-height: 20px;
     margin: 0 auto;
     color: whitesmoke;
     
@@ -17,11 +17,30 @@ h4{
     text-align: center;
 }
 .sidebar{
+    display: flex;
     float: left;
-    margin-right: 20px;
-    max-width: 200px;
-    min-width: 150px;
+    
+    flex-direction: column;
 }
+
+.image {
+    height: 150px;
+    width: 250px;
+
+    /* max-width: 20px; */
+    /* max-height: 20px; */
+}
+
+
 .container{
     text-align: justify;
 }
+
+li {list-style-type: none}
+
+
+body{
+    background-color: rgb(27, 27, 27);
+    color: whitesmoke
+}
+
