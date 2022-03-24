@@ -1,34 +1,27 @@
-.header{
-    max-width: 500px;
-    max-height: 20px;
-    margin: 0 auto;
-    color: whitesmoke;
-    
-}
+
 div{
     padding: 5px 15px;
 }
 h4{
     text-align: center;
+    
 }
-.header{
+header{
     margin-top: 20px;
     min-height: 200px;
-    text-align: center;
+
 }
-.sidebar{
+nav{
     display: flex;
     float: left;
-    
     flex-direction: column;
+    margin: top -10px;
+    align-items: flex-end;
 }
 
 .image {
-    height: 150px;
-    width: 250px;
-
-    /* max-width: 20px; */
-    /* max-height: 20px; */
+    height: 210px;
+    width: 350px;
 }
 
 
@@ -36,7 +29,6 @@ h4{
     text-align: justify;
 }
 
-li {list-style-type: none}
 
 
 body{
@@ -44,3 +36,19 @@ body{
     color: whitesmoke
 }
 
+.home{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px ;
+    text-decoration: none;
+}
+
+.home:hover{
+    transition: 0.5s;
+    color:red;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
