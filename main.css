@@ -39,16 +39,29 @@ body{
 .home{
     text-align: center;
     color: whitesmoke;
-    font-size: 40px ;
+    font-size: 80px ;
     text-decoration: none;
+    padding-left: 100px
 }
 
 .home:hover{
     transition: 0.5s;
-    color:red;
+    color:rgb(168, 43, 43);
     text-decoration: none;
 }
 
 h1{
     text-align: center;
 }
+
+#tm{
+    
+    font-size: 150px;
+    padding-left: 600px;
+    padding-top: 100px;
+    color: rgb(168, 43, 43);
+}
+.main_text{
+    font-size: 50px;
+   padding-left: 558px;
+    font-family:Arial, Helvetica, sans-serif ;}
