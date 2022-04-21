@@ -1,4 +1,4 @@
-const date = new Date();
+/*const date = new Date();
 
 
 function check(x){
