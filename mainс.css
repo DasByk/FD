@@ -1,0 +1,96 @@
+
+div{
+    padding: 5px 15px;
+}
+h4{
+    text-align: center;
+    
+}
+header{
+    margin-top: 50px;
+    min-height: 200px;
+
+}
+nav{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    margin: top 50px;
+    align-items: flex-end;
+    
+}
+
+.image {
+    height: 210px;
+    width: 350px;
+}
+
+.image_page {
+    height: 310px;
+    width: 450px;
+}
+
+
+body{
+    background-color: rgb(27, 27, 27);
+    color: whitesmoke
+}
+
+.home{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 80px ;
+    text-decoration: none;
+    padding-left: 100px
+}
+
+.home:hover{
+    transition: 0.5s;
+    color:rgb(168, 43, 43);
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+
+/*#tm{
+    
+    font-size: 150px;
+    padding-left: 600px;
+    padding-top: 100px;
+    color: rgb(168, 43, 43);
+}*/
+.main_text{
+    
+    font-size: 80px;
+    padding-left: 1200px;
+    padding-top: 500px;
+    color: rgb(230, 224, 224);
+}
+.page_pic {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin: top 50px;
+    align-items: flex-end;
+    display: block;
+  float: left;
+    }
+
+ .page_text{
+    font-size: 20px;
+    /* padding-left: 1200px; */
+    /* padding-top: 500px; */
+    color: rgb(230, 224, 224);
+    /* margin: 0; */
+ }
+
+ .page_text > p{
+     margin: 1px;
+     text-align: justify;
+ }
+ 
+ .page_text > .ostup{
+     margin-bottom: 10px;
+ }
